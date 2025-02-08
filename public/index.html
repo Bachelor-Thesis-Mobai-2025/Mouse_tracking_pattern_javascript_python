@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="questionnaire">
+    <div id="start-screen">
+      <button id="start-btn">Start Questionnaire</button>
+    </div>
+    <div id="question-screen" style="display: none;">
+      <h2 id="question-text"></h2>
+      <button id="yes-btn">Yes</button>
+      <button id="no-btn">No</button>
+      <button id="next-btn" style="display: none;">Next</button>
+    </div>
+    <div id="result-screen" style="display: none;">
+      <h2>Thank you for completing the questionnaire!</h2>
+      <p>Your data has been saved.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
